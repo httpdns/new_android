@@ -50,8 +50,8 @@
 	* @param2 isCooperator:合作厂商开关，腾讯及代理业务为false，非腾讯业务为true
 	* @param3 appID:，腾讯灯塔的AppKey，非腾讯业务需申请获得，注册后由系统或管理员分配；腾讯业务为AppID
 	* @param4 timeout:解析超时时间，建议设置为1000ms
-	* @param5 id:HTTPDNS服务端分配的id，通过申请获得
-	* @param6 key:HTTPDNS服务端分配的key，通过申请获得
+	* @param5 id:HTTPDNS服务端分配的id，云官网注册获得，腾讯内部业务输入"NULL"
+	* @param6 key:HTTPDNS服务端分配的key，云官网注册获得，腾讯内部业务输入"NULL"
 	* @param7 debug:sdk日志开关,true打开，false关闭，***上线时一定要设置为false***
 	* */
 	WGGetHostByName.getInstance().init(MainActivity.this, true, "0I000LT6GW1YGCP7", 1000, "xxx", "xxxxxxxx", true);
